@@ -22,7 +22,7 @@ class WelcomePage extends StatelessWidget {
                 height: MediaQuery.of(context).size.width,
                 decoration: const BoxDecoration(
                     image: DecorationImage(
-                        image: NetworkImage("https://ssfsahityolsav.sevanapp.com/images/1234.jpeg"))),
+                        image: AssetImage("assets/images/welcome.png"))),
               ),
               const Text(
                 "Welcome",

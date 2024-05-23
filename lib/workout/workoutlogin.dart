@@ -29,8 +29,15 @@ class WorkOutLogin extends StatelessWidget {
                 style: TextStyle(fontSize: 16, fontWeight: FontWeight.w300),
               ),
               const SizedBox(
-                height: 75,
+                height: 15,
               ),
+                  Container(
+                height: MediaQuery.of(context).size.width/2,
+                decoration: const BoxDecoration(
+                    image: DecorationImage(
+                        image: AssetImage("assets/images/relax_image.png"))),
+              ),
+              
               Padding(
                 padding: const EdgeInsets.all(10),
                 child: TextField(
