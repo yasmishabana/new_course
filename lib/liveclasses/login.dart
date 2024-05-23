@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:new_course/liveclasses/registrationpage.dart';
 
 
-class WorkOutLogin extends StatelessWidget {
-  const WorkOutLogin({super.key});
+class LiveLogin extends StatelessWidget {
+  const LiveLogin({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -28,6 +28,9 @@ class WorkOutLogin extends StatelessWidget {
               const Text(
                 "Enter your email address to sign in.",
                 style: TextStyle(fontSize: 16, fontWeight: FontWeight.w300),
+              ),
+                const SizedBox(
+                height: 15,
               ),
                 Container(
                 height: MediaQuery.of(context).size.width/2,
