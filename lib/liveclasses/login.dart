@@ -30,7 +30,7 @@ class LiveLogin extends StatelessWidget {
                 style: TextStyle(fontSize: 16, fontWeight: FontWeight.w300),
               ),
                 const SizedBox(
-                height: 15,
+                height:15,
               ),
                 Container(
                 height: MediaQuery.of(context).size.width/2,
