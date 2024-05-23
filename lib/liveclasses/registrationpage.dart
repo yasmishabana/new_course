@@ -8,7 +8,7 @@ class RegistrationPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text("Sign Up",
+        title: const Text("Sign Up",
             style: TextStyle(fontWeight: FontWeight.w500)),
       ),
     );
